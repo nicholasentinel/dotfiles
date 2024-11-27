@@ -5,7 +5,7 @@
 # vars:
 EC2_DEV_USER="admin"
 EC2_BASE_USER="ubuntu"
-EC2_DEV_INSTANCE="i-048767053f6e39cb3"
+EC2_DEV_INSTANCE="<instance-id>"
 
 # helpful regex cmds for working with linux/k8s logs
 alias dd="sed -n '/DF/,/^$/{/./p}' general_info >> resources.log"
